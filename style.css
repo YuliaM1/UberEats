@@ -1,0 +1,336 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper_nav {
+	padding: 20px 20%;
+	box-shadow: 0px 0px 10px 10px lightgray;
+}
+
+.nav {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav div {
+	display: flex;
+	align-items: center;
+}
+
+.nav_right {
+	margin-left: auto;
+}
+
+.enter {
+	margin-right: 30px;
+	border-radius: 3px;
+	border: 2px solid lightgray;
+	padding: 10px 20px;
+	background: none;
+	font-family: Roboto, sans-serif;
+	font-size: 1.125em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+
+.cart {
+	background: none;
+	border: 0;
+}
+
+.wrapper_main {
+	padding: 60px 20% 70px;
+}
+
+.search {
+	padding-bottom: 60px;
+}
+
+.search input {
+	width: 100%;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid lightgray;
+	font-family: Roboto, sans-serif;
+	font-size: 1.125em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.search input::-webkit-input-placeholder {
+	color: rgb(176, 176, 176);
+}
+
+h1 {
+	margin-top: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 1.75em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 2em;
+}
+
+.restaurants {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.restaurant {
+	padding-bottom: 20px;
+	flex-basis: 32%;
+	margin-bottom: 30px;
+}
+
+.restaurant img {
+	width: 100%;
+	height: auto;
+}
+
+.restaurant div {
+	margin: 10px 0;
+}
+
+.gray {
+	background: rgb(249, 249, 249);
+}
+
+.name {
+	font-family: Roboto, sans-serif;
+	font-size: 1.25em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.description {
+	color: gray;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.time {
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.wrapper_footer {
+	padding: 0px 20%;
+	background: rgb(38, 38, 38);
+	color: white;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.wrapper_footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footer {
+	padding: 80px 0 60px;
+	border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.footer img {
+	height: 30px;
+	width: auto;
+}
+
+.footer2 {
+	padding: 50px 0 60px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.footer2 div, .footer4 div {
+	flex-basis: 30%;
+}
+
+.indent {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.lang {
+	outline: none;
+	width: 100%;
+	padding: 15px 0px 15px 30%;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: url(img/Shape.png) no-repeat, url(img/world.svg) no-repeat rgb(59, 59, 59);
+	background-size: 20px auto, 20px auto;
+	background-position: right 5% center, left 5% center;
+	font-family: Roboto, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	-webkit-appearance: none;
+}
+
+.green {
+	color: rgb(87, 173, 86);
+}
+
+.uber_eats {
+	font-family: Roboto, sans-serif;
+	font-size: 1.125em;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.social_networks img {
+	height: 30px;
+	width: auto;
+}
+
+.footer3 {
+	padding: 60px 0;
+	text-align: center;
+	border-bottom: 2px solid rgb(124, 124, 124);
+}
+
+.footer3 img {
+	height: 50px;
+	width: auto;
+}
+
+img[src="img/the_App_Store.png"] {
+	margin-right: 30px;
+}
+
+.footer4 {
+	padding: 60px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.arrow {
+	border-radius: 3px;
+	background-color: rgb(87, 173, 86);
+	width: 75px;
+	height: 75px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	text-align: center;
+}
+
+.helper {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.arrow img {
+	height: 30px;
+	width: auto;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper_nav {
+		padding: 20px 10px;
+	}
+
+	.wrapper_main {
+		padding: 60px 10px 70px;
+	}
+
+	.restaurant {
+		flex-basis: 49%;
+	}
+
+	.wrapper_footer {
+		padding: 0 10px;
+	}
+
+	.lang {
+		width: 100%;
+		padding: 15px 0px 15px 30%;
+		background-position: right 7% center, left 7% center;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.wrapper_nav {
+		padding: 20px 10px;
+	}
+
+	.cart {
+		display: none;
+	}
+
+	.enter {
+		margin-right: 0;
+	}
+
+	.wrapper_main {
+		padding: 60px 10px 70px;
+	}
+
+	.restaurant {
+		flex-basis: 100%;
+	}
+
+	.wrapper_footer {
+		padding: 0 10px;
+	}
+
+	.footer2 {
+		padding: 50px 0 60px;
+		display: flex;
+		flex-direction: column;
+		border-bottom: 2px solid rgb(124, 124, 124);
+	}
+
+	.footer4 {
+		padding: 60px 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer2 div, .footer4 div {
+		flex-basis: 100%;
+	}
+
+	.lang {
+		width: 100%;
+		padding: 15px 0px 15px 30%;
+		background-position: right 7% center, left 7% center;
+	}
+
+	.social_networks, .footer4 div {
+		margin-bottom: 30px;
+	}
+
+	.footer3 img {
+		height: 43px;
+		width: auto;
+	}
+
+	img[src="img/the_App_Store.png"] {
+		margin-right: 13px;
+	}
+}
