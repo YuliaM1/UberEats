@@ -273,7 +273,7 @@ img[src="img/the_App_Store.png"] {
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 	.wrapper_nav {
 		padding: 20px 10px;
 	}
